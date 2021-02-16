@@ -47,7 +47,35 @@ export default {
         {
           name: 'description',
           content: this.$page.post.description
-        }
+        },
+        {
+          name: 'twitter:card',
+          content: "summary_large_image"
+        },
+        {
+          name: 'twitter:site',
+          content: "@saqtaka"
+        },
+        {
+          name: 'twitter:creator',
+          content: "@saqtaka"
+        },
+        {
+          name: 'og:url',
+          content: 'https://saqtaka.com' + this.$page.post.path
+        },
+        {
+          name: 'og:title',
+          content: this.$page.post.title
+        },
+        {
+          name: 'og:description',
+          content: this.$page.post.description
+        },
+        {
+          name: 'og:image',
+          content: 'https://saqtaka.com' + this.$page.post.cover_image.src
+        },
       ]
     }
   }
