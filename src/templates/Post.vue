@@ -54,15 +54,15 @@ export default {
         },
         {
           name: 'twitter:site',
-          content: "@saqtaka"
+          content: this.$static.metadata.twitterName
         },
         {
           name: 'twitter:creator',
-          content: "@saqtaka"
+          content: this.$static.metadata.twitterName
         },
         {
           name: 'og:url',
-          content: 'https://saqtaka.com' + this.$page.post.path
+          content: this.$static.metadata.siteUrl + this.$page.post.path
         },
         {
           name: 'og:title',
@@ -74,7 +74,7 @@ export default {
         },
         {
           name: 'og:image',
-          content: 'https://saqtaka.com' + this.$page.post.cover_image.src
+          content: this.$static.metadata.siteUrl + this.$page.post.cover_image.src
         },
       ]
     }
@@ -101,6 +101,14 @@ query Post ($id: ID!) {
 }
 </page-query>
 
+<static-query>
+query {
+  metadata {
+    siteUrl
+    twitterName
+  }
+}
+</static-query>
 <style lang="scss">
 .post-title {
   padding: calc(var(--space) / 2) 0 calc(var(--space) / 2);

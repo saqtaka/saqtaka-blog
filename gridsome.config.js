@@ -5,12 +5,17 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'アプリ山脈',
-  siteDescription: 'アプリ山脈 ＠saqtakaのブログ',
+  siteName: '＠saqtakaのブログ',
+  siteDescription: '＠saqtakaのブログ',
+  siteUrl: 'https://saqtaka.com',
 
   templates: {
     Post: '/post/:category/:slag',
     Tag: '/tag/:id'
+  },
+
+  metadata: {
+    twitterName: '@saqtaka'
   },
 
   plugins: [
