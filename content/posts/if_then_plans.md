@@ -2,7 +2,7 @@
 title: 90%以上が習慣化に成功?!目標達成率を高める if then プランとは
 date: 2021-02-14
 published: true
-slag: 'if-them-plans'
+slag: 'if_them_plans'
 category: 'psychology'
 tags: ['習慣', '目標達成']
 series: false
