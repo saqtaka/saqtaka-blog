@@ -6,7 +6,7 @@ slag: 'garbled_characters_in_batch_script'
 category: 'windows'
 tags: ['Windows', 'cmd']
 series: false
-cover_image: ./images/fabio-comparelli-uq2E2V4LhCY-unsplash.jpg
+cover_image: ./images/chris-unger-KL5lzjszXp8-unsplash.jpg
 canonical_url: false
 description: "こんにちは、サクたか(saqtaka)です。ある日、batファイルを実行すると、ファイル名に日本語が含まれているパスの部分でうまく動きませんでした。cmd.exeの画面を見ると、日本語のファイル名が文字化けしていました。"
 ---
