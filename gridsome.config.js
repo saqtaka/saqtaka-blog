@@ -13,9 +13,9 @@ module.exports = {
     Post: '/post/:category/:slag',
     Tag: '/tag/:id',
     // WordPress
-    // WordPressCategory: '/wp/category/:slug', // adds a route for the "category" post type (Optional)
-    // WordPressPost: '/wp/:slug', // adds a route for the "post" post type (Optional)
-    // WordPressPostTag: '/wp/tag/:slug' // adds a route for the "post_tag" post type (Optional)
+    WordPressCategory: '/wp/category/:slug', // adds a route for the "category" post type (Optional)
+    WordPressPost: '/wp/:slug', // adds a route for the "post" post type (Optional)
+    WordPressPostTag: '/wp/tag/:slug' // adds a route for the "post_tag" post type (Optional)
   },
 
   metadata: {
@@ -38,13 +38,13 @@ module.exports = {
         }
       }
     }
-    // {
-    //   use: '@gridsome/source-wordpress',
-    //   options: {
-    //     baseUrl: 'https://memo.portability.info/', // required
-    //     typeName: 'WordPress', // GraphQL schema name (Optional)
-    //   }
-    // }
+    {
+      use: '@gridsome/source-wordpress',
+      options: {
+        baseUrl: 'https://server.portability.info/', // required
+        typeName: 'WordPress', // GraphQL schema name (Optional)
+      }
+    }
   ],
 
   transformers: {
