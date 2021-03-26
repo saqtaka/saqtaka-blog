@@ -1,8 +1,19 @@
-
+---
+title: Dockerfileでファイルやディレクトリごとコンテナにコピーする
+date: 2021-03-11
+published: true
+slag: 'dockerfile_with_add_and_copy'
+category: 'docker'
+tags: ['docker']
+series: false
+cover_image: ./images/todd-cravens-lwACYK8ScmA-unsplash.jpg
+canonical_url: false
+description: "こんにちは、サクたか(saqtaka)です。今回は、ホスト側からコンテナにファイルやディレクトリをそのままコピーして転送する方法を紹介します。Dockerfileには親のOSからコンテナにファイルを送るコマンドが2種類あります。それがADDとCOPYというコマンドです。"
+---
 
 # Dockerfileでファイルやディレクトリごとコンテナにコピーする
 ## Dockerfileでファイルやディレクトリごとコンテナにコピーしたい
-こんにちは、サクたか([\@saqtaka](https://twitter.com/saqtaka))です。
+こんにちは、サクたか([@saqtaka](https://twitter.com/saqtaka))です。
 
 今回は、ホスト側からコンテナにファイルやディレクトリをそのままコピーして転送する方法を紹介します。
 
