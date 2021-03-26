@@ -14,7 +14,7 @@ module.exports = {
     Tag: '/tag/:id',
     // WordPress
     WordPressCategory: '/wp/category/:slug', // adds a route for the "category" post type (Optional)
-    WordPressPost: '/wp/:id', // adds a route for the "post" post type (Optional)
+    WordPressPost: '/p=:id', // adds a route for the "post" post type (Optional)
     WordPressPostTag: '/wp/tag/:slug' // adds a route for the "post_tag" post type (Optional)
   },
 
