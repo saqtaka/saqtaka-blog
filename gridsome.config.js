@@ -37,7 +37,7 @@ module.exports = {
           }
         }
       }
-    }
+    },
     {
       use: '@gridsome/source-wordpress',
       options: {
