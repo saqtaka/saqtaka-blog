@@ -47,8 +47,9 @@ export default {
 <style lang="scss">
   nav {
     a {
-      padding: 5px;
+      padding: 10px;
       margin: 5px;
+      background-color: #0f2d44;
     }
   }
 </style>
