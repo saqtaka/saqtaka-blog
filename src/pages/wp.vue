@@ -43,3 +43,12 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+  nav {
+    a {
+      padding: 5px;
+      margin: 5px;
+    }
+  }
+</style>
