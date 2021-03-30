@@ -4,7 +4,7 @@ date: 2021-03-30
 published: true
 slag: 'developed_remenu'
 category: 'Nuxt'
-tags: ['Nuxt', 'cmd']
+tags: ['Nuxt']
 series: false
 cover_image: ./images/chris-unger-KL5lzjszXp8-unsplash.jpg
 canonical_url: false
