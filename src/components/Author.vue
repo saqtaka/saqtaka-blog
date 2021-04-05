@@ -8,8 +8,7 @@
 		</h1>
 
 		<p class="author__intro">
-			自然の景色はたとえWebの画像であってもストレス軽減になるらしいです。
-			なのでこのブログは自然の画像をたくさん貼ってあります。
+			<a href="https://remenu.app">remenu</a>というWebアプリを開発しています。
 		</p>
 
 		<p class="author__links">

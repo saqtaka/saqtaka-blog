@@ -9,6 +9,8 @@
 
     </div>
 
+    <AdRemenu />
+
     <div class="post content-box">
       <div class="post__header">
         <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image" />
@@ -24,7 +26,7 @@
     <div class="post-comments">
       <!-- Add comment widgets here -->
     </div>
-
+    <AdRemenu />
     <Author class="post-author" />
   </Layout>
 </template>
@@ -33,12 +35,14 @@
 import PostMeta from '~/components/PostMeta'
 import PostTags from '~/components/PostTags'
 import Author from '~/components/Author.vue'
+import AdRemenu from '~/components/AdRemenu.vue'
 
 export default {
   components: {
     Author,
     PostMeta,
-    PostTags
+    PostTags,
+    AdRemenu
   },
   metaInfo () {
     return {
