@@ -8,12 +8,12 @@ tags: ['Nuxt']
 series: false
 cover_image: ./images/chris-unger-KL5lzjszXp8-unsplash.jpg
 canonical_url: false
-description: "習慣とタスクを同時に管理できるWebアプリを作ったので紹介です。このアプリの特徴は大きく2つあります。* 習慣とTODOを同時に管理 * if thenプランで習慣を管理"
+description: "習慣とタスクを同時に管理できるremenuというWebアプリを作ったので紹介です。このアプリの特徴は大きく2つあります。* 習慣とTODOを同時に管理 * if thenプランで習慣を管理"
 ---
 # 習慣とタスクを同時に管理できるWebアプリを作りました
 
 こんにちは。サクたかです。
-[remenu](https://remenu.app)という、習慣とタスクを同時に管理できるWebアプリを作ったので紹介です。
+[remenu](https://remenu.app/ja)という、習慣とタスクを同時に管理できるWebアプリを作ったので紹介です。
 
 ## サービス紹介
 このアプリの特徴は大きく2つあります。
@@ -82,7 +82,7 @@ i18nのプラグインを使って途中まで英語の対訳をつくってい�
 ぜひ使ってみてください。
 
 
-[remenu](https://remenu.app)
+[remenu](https://remenu.app/ja)
 
 これからも少しずつ改良していきます。
 
