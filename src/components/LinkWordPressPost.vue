@@ -1,12 +1,11 @@
 <template>
   <div>
     <div class="post content-box link-box">
-      <a href="https://remenu.app"></a>
-      <div class="post__header">
+      <a href="/wp"></a>
+      <!-- <div class="post__header">
         <g-image alt="Cover image" src="~/assets/images/remenu.jpg" />
-      </div>
-      <h2 class="post__content">Remenu | 習慣を管理できるTODOアプリ</h2>
-      <p>習慣化できる確率が大きく上がる、if thenプランで習慣を管理できるWebアプリ。</p>
+      </div> -->
+      <h2 class="post__content">WordPress時代の過去記事はこちら</h2>
     </div>
   </div>
 </template>

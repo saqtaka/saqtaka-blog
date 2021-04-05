@@ -35,6 +35,7 @@
       </div>
     </div>
     <AdRemenu />
+    <LinkWordPressPost />
     <Author class="post-author" />
   </Layout>
 </template>
@@ -61,11 +62,13 @@ query WordPressPost ($id: ID!) {
 <script>
 import Author from '~/components/Author.vue'
 import AdRemenu from '~/components/AdRemenu.vue'
+import LinkWordPressPost from '~/components/LinkWordPressPost.vue'
 
 export default {
   components: {
     Author,
-    AdRemenu
+    AdRemenu,
+    LinkWordPressPost
   },
   metaInfo () {
     return {
