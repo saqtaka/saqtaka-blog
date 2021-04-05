@@ -9,6 +9,7 @@
       :width="$page.wordPressPost.featuredMedia.mediaDetails.width"
       :alt="$page.wordPressPost.featuredMedia.altText"
     /> -->
+    <AdRemenu />
     <div class="post content-box">
       <div class="post__header">
       </div>
@@ -33,6 +34,7 @@
         </template>
       </div>
     </div>
+    <AdRemenu />
     <Author class="post-author" />
   </Layout>
 </template>
@@ -58,10 +60,12 @@ query WordPressPost ($id: ID!) {
 
 <script>
 import Author from '~/components/Author.vue'
+import AdRemenu from '~/components/AdRemenu.vue'
 
 export default {
   components: {
-    Author
+    Author,
+    AdRemenu
   },
   metaInfo () {
     return {
