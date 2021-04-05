@@ -75,14 +75,14 @@ if then プランを使用した人の90パーセント以上が運動習慣に�
 
 ## 【宣伝】if then プランを使って習慣を管理できるWebアプリを作りました
 
-[Tasbit](https://tasbit.net/ja)というWebアプリを作りました。
+[remenu](https://remenu.app/ja)というWebアプリを作りました。
 
 if then プランを使って習慣を管理できるアプリです。
 
 上で紹介した腕立て伏せもこのアプリで管理しています。
 ぜひ使ってみてください。
 
-[tasbit.net](https://tasbit.net/ja)
+[remenu](https://remenu.app/ja)
 
 ## 参考
 [Implementation Intentions and Goal Achievement: A Meta-Analysis of Effects and Processes](https://www.researchgate.net/publication/37367696_Implementation_Intentions_and_Goal_Achievement_A_Meta-Analysis_of_Effects_and_Processes)
