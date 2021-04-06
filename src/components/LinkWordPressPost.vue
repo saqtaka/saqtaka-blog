@@ -5,7 +5,7 @@
       <!-- <div class="post__header">
         <g-image alt="Cover image" src="~/assets/images/remenu.jpg" />
       </div> -->
-      <h2 class="post__content">WordPress時代の過去記事はこちら</h2>
+      <h2 class="post__content">メモ置き場はこちら</h2>
     </div>
   </div>
 </template>
