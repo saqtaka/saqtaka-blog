@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/p=852", "destination": "/post/docker/dockerfile-with-add-and-copy" }
+  ]
+}
