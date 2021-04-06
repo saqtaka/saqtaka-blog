@@ -6,7 +6,7 @@
         <g-image alt="Cover image" src="~/assets/images/remenu.jpg" />
       </div>
       <h2 class="post__content">Remenu | 習慣を管理できるTODOアプリ</h2>
-      <p>習慣化できる確率が大きく上がる、if thenプランで習慣を管理できるWebアプリ。</p>
+      <p>習慣化できる確率が大きく上がる、if thenプランで習慣を管理できるWebアプリを作りました。</p>
     </div>
   </div>
 </template>
