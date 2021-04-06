@@ -8,6 +8,8 @@
       <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
     </div>
 
+    <LinkWordPressPost />
+
   </Layout>
 </template>
 
@@ -48,11 +50,13 @@ query {
 <script>
 import Author from '~/components/Author.vue'
 import PostCard from '~/components/PostCard.vue'
+import LinkWordPressPost from '~/components/LinkWordPressPost.vue'
 
 export default {
   components: {
     Author,
-    PostCard
+    PostCard,
+    LinkWordPressPost
   },
   metaInfo () {
     return {
