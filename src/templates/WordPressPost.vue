@@ -119,6 +119,10 @@ export default {
         display: block;
         max-width: none;
       }
+
+      pre {
+        overflow: auto;
+      }
     }
   }
 
