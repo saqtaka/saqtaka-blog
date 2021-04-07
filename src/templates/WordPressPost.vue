@@ -3,6 +3,9 @@
     <div class="post-title">
       <h1 v-html="$page.wordPressPost.title"/>
     </div>
+
+    <WordPressPostMeta :post="$page.wordPressPost" />
+
     <!-- <img
       v-if="$page.wordPressPost.featuredMedia"
       :src="$page.wordPressPost.featuredMedia.sourceUrl"
@@ -45,6 +48,8 @@ query WordPressPost ($id: ID!) {
   wordPressPost(id: $id) {
     title
     content
+    date
+    modified
     categories {
       id
       title
@@ -63,12 +68,14 @@ query WordPressPost ($id: ID!) {
 import Author from '~/components/Author.vue'
 import AdRemenu from '~/components/AdRemenu.vue'
 import LinkWordPressPost from '~/components/LinkWordPressPost.vue'
+import WordPressPostMeta from '~/components/WordPressPostMeta.vue'
 
 export default {
   components: {
     Author,
     AdRemenu,
-    LinkWordPressPost
+    LinkWordPressPost,
+    WordPressPostMeta
   },
   metaInfo () {
     return {
