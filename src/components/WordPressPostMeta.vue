@@ -1,7 +1,6 @@
 <template>
    <div class="post-meta">
-      Posted {{ post.date }}.
-      Updated {{ post.modified }}
+      Posted {{ displayDate }}.
       <!-- <template v-if="post.timeToRead">
         <strong>{{ post.timeToRead }} min read.</strong>
       </template> -->
@@ -9,8 +8,19 @@
 </template>
 
 <script>
+import dayjs from 'dayjs'
+
 export default {
-  props: ['post']
+  props: ['post'],
+  data () {
+    return {
+      displayDate: null
+    }
+  },
+  created () {
+    const dayjsDate = dayjs(new Date(this.post.date))
+    this.displayDate = dayjsDate.format('YYYY/MM/DD')
+  }
 }
 </script>
 

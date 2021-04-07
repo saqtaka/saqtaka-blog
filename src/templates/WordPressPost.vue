@@ -2,9 +2,10 @@
   <Layout>
     <div class="post-title">
       <h1 v-html="$page.wordPressPost.title"/>
+
+      <WordPressPostMeta :post="$page.wordPressPost" />
     </div>
 
-    <WordPressPostMeta :post="$page.wordPressPost" />
 
     <!-- <img
       v-if="$page.wordPressPost.featuredMedia"
