@@ -1,11 +1,18 @@
 <template>
   <Layout>
-    <h1>Welcome to my blog :)</h1>
-    <ul class="post-list">
+    <!-- Author intro -->
+    <Author :show-title="true" />
+
+    <!-- List posts -->
+    <div class="posts">
+      <PostCard v-for="edge in $page.allWordPressPost.edges" :key="edge.node.id" :post="edge.node"/>
+    </div>
+
+    <!-- <ul class="post-list">
       <li v-for="{ node } in $page.allWordPressPost.edges" :key="node.id">
         <Post :post="node" />
       </li>
-    </ul>
+    </ul> -->
     <Pager :info="$page.allWordPressPost.pageInfo"/>
   </Layout>
 </template>
@@ -21,6 +28,7 @@ query Home ($page: Int) {
       node {
         id
         title
+        date
         path
         excerpt
       }
@@ -31,12 +39,16 @@ query Home ($page: Int) {
 
 <script>
 import { Pager } from 'gridsome'
-import Post from '~/components/Post.vue'
+// import Post from '~/components/Post.vue'
+import Author from '~/components/Author.vue'
+import PostCard from '~/components/PostCard.vue'
 
 export default {
   components: {
     Pager,
-    Post
+    // Post,
+    Author,
+    PostCard
   },
   metaInfo: {
     title: 'Welcome to my blog :)'
