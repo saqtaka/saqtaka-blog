@@ -1,5 +1,6 @@
 <template>
   <div>
+    <p class="content">作ったアプリの宣伝</p>
     <div class="post content-box link-box">
       <a href="https://remenu.app"></a>
       <div class="post__header">
@@ -81,5 +82,10 @@
 
 .post-author {
   margin-top: calc(var(--space) / 2);
+}
+
+.content {
+  margin: 0 auto;
+  max-width: var(--content-width);
 }
 </style>
