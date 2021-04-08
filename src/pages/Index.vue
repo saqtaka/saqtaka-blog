@@ -4,14 +4,19 @@
     <Author :show-title="true" />
 
     <!-- WordPress List posts -->
-    <h2>最新記事</h2>
     <div class="posts">
+      <div class="content">
+        <h2>最新記事</h2>
+      </div>
       <PostCard v-for="edge in $page.allWordPressPost.edges" :key="edge.node.id" :post="edge.node"/>
     </div>
-    <Pager :info="$page.allWordPressPost.pageInfo"/>
-
+    <div class="content">
+      <Pager :info="$page.allWordPressPost.pageInfo"/>
+    </div>
     <!-- Markdown List posts -->
-    <h2>注目記事</h2>
+    <div class="content">
+      <h2>注目記事</h2>
+    </div>
     <div class="posts">
       <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
     </div>
@@ -62,6 +67,17 @@ query Home ($page: Int) {
 }
 </page-query>
 
+<static-query>
+query {
+  metadata {
+    siteName
+    siteDescription
+    siteUrl
+    twitterName
+  }
+}
+</static-query>
+
 <script>
 import { Pager } from 'gridsome'
 // import Post from '~/components/Post.vue'
@@ -75,8 +91,40 @@ export default {
     Author,
     PostCard
   },
-  metaInfo: {
-    title: 'Welcome to my blog :)'
+  metaInfo () {
+    return {
+      title: 'トップページ',
+      meta: [
+        {
+          name: 'twitter:card',
+          content: "summary_large_image"
+        },
+        {
+          name: 'twitter:site',
+          content: this.$static.metadata.twitterName
+        },
+        {
+          name: 'twitter:creator',
+          content: this.$static.metadata.twitterName
+        },
+        {
+          name: 'og:url',
+          content: this.$static.metadata.siteUrl
+        },
+        {
+          name: 'og:title',
+          content: this.$static.metadata.siteName
+        },
+        {
+          name: 'og:description',
+          content: this.$static.metadata.siteDescription
+        },
+        {
+          name: 'og:image',
+          content: this.$static.metadata.siteUrl + '/og_image.png'
+        },
+      ]
+    }
   }
 }
 </script>
@@ -86,7 +134,13 @@ export default {
     a {
       padding: 10px;
       margin: 5px;
-      background-color: #0f2d44;
+      background-color: var(--bg-content-color);
     }
   }
+
+  .content {
+    margin: 0 auto;
+    max-width: var(--content-width);
+  }
 </style>
+ 
