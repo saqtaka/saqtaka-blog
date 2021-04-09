@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <!-- Author intro -->
-    <Author :show-title="true" />
+    <Author :show-title="false" />
 
     <!-- WordPress List posts -->
     <div class="posts">
