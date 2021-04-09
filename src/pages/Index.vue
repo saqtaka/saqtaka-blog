@@ -1,7 +1,7 @@
 <template>
-  <Layout>
+  <Layout :show-logo="false">
     <!-- Author intro -->
-    <Author :show-title="false" />
+    <Author :show-title="true" />
 
     <!-- WordPress List posts -->
     <div class="posts">
