@@ -1,26 +1,28 @@
 <template>
-  <div id="app">
+  <v-app>
+    <div id="app">
 
-    <header class="header">
-      <div class="header__left">
-        <Logo v-if="showLogo" /> 
-      </div>
-      
-      <div class="header__right">        
-        <ToggleTheme />
-      </div>
-    </header>
+      <header class="header">
+        <div class="header__left">
+          <Logo v-if="showLogo" /> 
+        </div>
+        
+        <div class="header__right">        
+          <ToggleTheme />
+        </div>
+      </header>
 
-    <main class="main">
-      <slot/>
-    </main>
+      <main class="main">
+        <slot/>
+      </main>
 
-    <footer class="footer">
-      <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}. </span>
-      <span class="footer__links">Powered by <a href="//gridsome.org"> Gridsome </a></span>
-    </footer>
+      <footer class="footer">
+        <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}. </span>
+        <span class="footer__links">Powered by <a href="//gridsome.org"> Gridsome </a></span>
+      </footer>
 
-  </div>
+    </div>
+  </v-app>
 </template>
 
 <script>

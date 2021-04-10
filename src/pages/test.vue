@@ -14,8 +14,8 @@
           </v-col>
         </v-row>
         <v-row>
-          <v-col v-for="edge in $page.allWordPressPost.edges" :key="edge.node.id" cols="6">
-            <PostCard :post="edge.node"/>
+          <v-col v-for="edge in $page.allWordPressPost.edges" :key="edge.node.id" cols="6" sm="4" md="3">
+            <PostCard2 :post="edge.node"/>
           </v-col>
         </v-row>
       </v-container>
@@ -92,6 +92,7 @@ query {
 import { Pager } from 'gridsome'
 // import Post from '~/components/Post.vue'
 import Author from '~/components/Author.vue'
+import PostCard2 from '~/components/PostCard2.vue'
 import PostCard from '~/components/PostCard.vue'
 
 export default {
@@ -99,7 +100,8 @@ export default {
     Pager,
     // Post,
     Author,
-    PostCard
+    PostCard,
+    PostCard2
   },
   metaInfo () {
     return {
