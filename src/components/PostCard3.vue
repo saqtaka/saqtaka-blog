@@ -1,6 +1,6 @@
 <template>
   <v-card class="post-card pa-2" height="280" rounded="xl" :to="post.path">
-    <v-img v-if="post.cover_image" class="ma-2 rounded" :src="post.cover_image" />
+    <!-- <v-img v-if="post.cover_image" class="ma-2 rounded" :src="post.cover_image" /> -->
     <div class="ma-3">
       <div class="text-body-2">{{ post.title }}</div>
     </div>
