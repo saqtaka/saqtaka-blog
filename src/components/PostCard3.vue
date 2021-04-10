@@ -1,13 +1,13 @@
 <template>
-  <v-card class="post-card pa-2" height="330" rounded="xl" :to="post.path">
-    <!-- <v-img v-if="post.cover_image" class="ma-2 rounded" :src="post.cover_image" /> -->
-    <v-sheet class="ma-3" :height="70">
+  <v-card class="post-card pa-2" height="280" rounded="xl" :to="post.path">
+    <v-img v-if="post.cover_image" class="ma-2 rounded" :src="post.cover_image" />
+    <div class="ma-3">
       <div class="text-body-2">{{ post.title }}</div>
-    </v-sheet>
-    <v-sheet class="ma-3" >
-      <PostMeta :post="post" />
+    </div>
+    <div class="ma-3" >
+      <!-- <PostMeta :post="post" /> -->
       <PostTags :post="post" />
-    </v-sheet>
+    </div>
   </v-card>
 </template>
 
