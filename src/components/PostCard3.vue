@@ -1,11 +1,11 @@
 <template>
-  <v-card class="post-card pa-2" height="360" rounded="xl" :to="post.path">
-    <v-sheet class="ma-3" :height="120">
+  <v-card class="post-card pa-2" height="330" rounded="xl" :to="post.path">
+    <v-sheet class="ma-2">
       <div>
-        <v-img alt="Cover image" v-if="post.cover_image" class="post-card__image" :src="post.cover_image" />
+        <v-img alt="Cover image" v-if="post.cover_image" class="post-card__image rounded" :src="post.cover_image" />
       </div>
     </v-sheet>
-    <v-sheet class="ma-3" :height="100">
+    <v-sheet class="ma-3" :height="70">
       <div class="text-body-2">{{ post.title }}</div>
     </v-sheet>
     <v-sheet class="ma-3" >
