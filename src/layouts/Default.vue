@@ -7,9 +7,9 @@
           <Logo v-if="showLogo" /> 
         </div>
         
-        <div class="header__right">        
+        <!-- <div class="header__right">        
           <ToggleTheme />
-        </div>
+        </div> -->
       </header>
 
       <main class="main">

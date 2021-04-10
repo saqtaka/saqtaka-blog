@@ -14,8 +14,8 @@
           </v-col>
         </v-row>
         <v-row>
-          <v-col v-for="edge in $page.allWordPressPost.edges" :key="edge.node.id" cols="6" sm="4" md="3">
-            <PostCard2 :post="edge.node"/>
+          <v-col v-for="edge in $page.allWordPressPost.edges" :key="edge.node.id" cols="6">
+            <PostCard :post="edge.node"/>
           </v-col>
         </v-row>
       </v-container>
@@ -41,7 +41,7 @@
 
 <page-query>
 query Home ($page: Int) {
-  allWordPressPost (page: $page, perPage: 10) @paginate {
+  allWordPressPost (page: $page, perPage: 12) @paginate {
     pageInfo {
       totalPages
       currentPage
@@ -92,7 +92,6 @@ query {
 import { Pager } from 'gridsome'
 // import Post from '~/components/Post.vue'
 import Author from '~/components/Author.vue'
-import PostCard2 from '~/components/PostCard2.vue'
 import PostCard from '~/components/PostCard.vue'
 
 export default {
@@ -100,8 +99,7 @@ export default {
     Pager,
     // Post,
     Author,
-    PostCard,
-    PostCard2
+    PostCard
   },
   metaInfo () {
     return {

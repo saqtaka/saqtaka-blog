@@ -9,13 +9,25 @@
         <v-row>
           <v-col>
             <div class="content">
+              <h2>注目記事</h2>
+            </div>
+          </v-col>
+        </v-row>
+        <v-row>
+          <v-col v-for="edge in $page.posts.edges" :key="edge.node.id" cols="6" sm="4" md="3">
+            <PostCard3 :post="edge.node"/>
+          </v-col>
+        </v-row>
+        <v-row>
+          <v-col>
+            <div class="content">
               <h2>最新記事</h2>
             </div>
           </v-col>
         </v-row>
         <v-row>
-          <v-col v-for="edge in $page.allWordPressPost.edges" :key="edge.node.id" cols="6">
-            <PostCard :post="edge.node"/>
+          <v-col v-for="edge in $page.allWordPressPost.edges" :key="edge.node.id" cols="6" sm="4" md="3">
+            <PostCard2 :post="edge.node"/>
           </v-col>
         </v-row>
       </v-container>
@@ -24,12 +36,12 @@
       <Pager :info="$page.allWordPressPost.pageInfo"/>
     </div>
     <!-- Markdown List posts -->
-    <div class="content">
+    <!-- <div class="content">
       <h2>注目記事</h2>
-    </div>
-    <div class="posts">
-      <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
-    </div>
+    </div> -->
+    <!-- <div class="posts">
+      <PostCard3 v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
+    </div> -->
 
     <!-- <ul class="post-list">
       <li v-for="{ node } in $page.allWordPressPost.edges" :key="node.id">
@@ -41,7 +53,7 @@
 
 <page-query>
 query Home ($page: Int) {
-  allWordPressPost (page: $page, perPage: 10) @paginate {
+  allWordPressPost (page: $page, perPage: 12) @paginate {
     pageInfo {
       totalPages
       currentPage
@@ -92,14 +104,16 @@ query {
 import { Pager } from 'gridsome'
 // import Post from '~/components/Post.vue'
 import Author from '~/components/Author.vue'
-import PostCard from '~/components/PostCard.vue'
+import PostCard2 from '~/components/PostCard2.vue'
+import PostCard3 from '~/components/PostCard3.vue'
 
 export default {
   components: {
     Pager,
     // Post,
     Author,
-    PostCard
+    PostCard2,
+    PostCard3
   },
   metaInfo () {
     return {
