@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="content">作ったアプリの宣伝</p>
+    <p class="content ma-2">作ったアプリの宣伝</p>
     <div class="post content-box link-box">
       <a href="https://remenu.app/ja/?utm_source=saqtaka&utm_medium=blog&utm_campaign=ad_post"></a>
       <div class="post__header">

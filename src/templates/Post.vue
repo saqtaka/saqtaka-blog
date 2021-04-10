@@ -9,24 +9,43 @@
 
     </div>
 
-    <AdRemenu />
+    <v-container>
+      <v-row>
+        <v-col
+          cols="12"
+          md="3"
+        >
+          <AdRemenu />
+        </v-col>
+        <v-col
+          cols="12"
+          md="6"
+        >
 
-    <div class="post content-box">
-      <div class="post__header">
-        <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image" />
-      </div>
+          <div class="post content-box">
+            <div class="post__header">
+              <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image" />
+            </div>
 
-      <div class="post__content" v-html="$page.post.content" />
+            <div class="post__content" v-html="$page.post.content" />
 
-      <div class="post__footer">
-        <PostTags :post="$page.post" />
-      </div>
-    </div>
+            <div class="post__footer">
+              <PostTags :post="$page.post" />
+            </div>
+          </div>
 
-    <div class="post-comments">
-      <!-- Add comment widgets here -->
-    </div>
-    <AdRemenu />
+          <div class="post-comments">
+            <!-- Add comment widgets here -->
+          </div>
+        </v-col>
+        <v-col
+          cols="12"
+          md="3"
+        >
+          <AdRemenu />
+        </v-col>
+      </v-row>
+    </v-container>
     <Author class="post-author" />
   </Layout>
 </template>

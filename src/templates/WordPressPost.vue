@@ -13,32 +13,51 @@
       :width="$page.wordPressPost.featuredMedia.mediaDetails.width"
       :alt="$page.wordPressPost.featuredMedia.altText"
     /> -->
-    <AdRemenu />
-    <div class="post content-box">
-      <div class="post__header">
-      </div>
+    <v-container>
+      <v-row>
+        <v-col
+          cols="12"
+          md="3"
+        >
+          <AdRemenu />
+        </v-col>
+        <v-col
+          cols="12"
+          md="6"
+        >
+          <div class="post content-box">
+            <div class="post__header">
+            </div>
 
-      <div class="post__content" v-html="$page.wordPressPost.content"/>
-      <div class="post__footer">
-        <template v-if="$page.wordPressPost.categories.length">
-          <h4>Posted in</h4>
-          <ul class="list categories">
-            <li v-for="category in $page.wordPressPost.categories" :key="category.id" >
-              <g-link :to="category.path">{{ category.title }}</g-link>
-            </li>
-          </ul>
-        </template>
-        <template v-if="$page.wordPressPost.tags.length">
-          <h4>Tags</h4>
-          <ul class="list tags">
-            <li v-for="tag in $page.wordPressPost.tags" :key="tag.id" >
-              <g-link :to="tag.path">{{ tag.title }}</g-link>
-            </li>
-          </ul>
-        </template>
-      </div>
-    </div>
-    <AdRemenu />
+            <div class="post__content" v-html="$page.wordPressPost.content"/>
+            <div class="post__footer">
+              <template v-if="$page.wordPressPost.categories.length">
+                <h4>Posted in</h4>
+                <ul class="list categories">
+                  <li v-for="category in $page.wordPressPost.categories" :key="category.id" >
+                    <g-link :to="category.path">{{ category.title }}</g-link>
+                  </li>
+                </ul>
+              </template>
+              <template v-if="$page.wordPressPost.tags.length">
+                <h4>Tags</h4>
+                <ul class="list tags">
+                  <li v-for="tag in $page.wordPressPost.tags" :key="tag.id" >
+                    <g-link :to="tag.path">{{ tag.title }}</g-link>
+                  </li>
+                </ul>
+              </template>
+            </div>
+          </div>
+        </v-col>
+        <v-col
+          cols="12"
+          md="3"
+        >
+          <AdRemenu />
+        </v-col>
+      </v-row>
+    </v-container>
     <!-- <LinkWordPressPost /> -->
     <Author class="post-author" />
   </Layout>
