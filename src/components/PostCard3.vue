@@ -2,7 +2,7 @@
   <v-card class="post-card pa-2" height="330" rounded="xl" :to="post.path">
     <v-sheet class="ma-2">
       <div>
-        <v-img alt="Cover image" v-if="post.cover_image" class="post-card__image rounded" :src="post.cover_image" />
+        <v-img v-if="post.cover_image" class="rounded" :src="post.cover_image" />
       </div>
     </v-sheet>
     <v-sheet class="ma-3" :height="70">
