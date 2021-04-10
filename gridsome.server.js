@@ -4,9 +4,13 @@
 
 // Changes here requires a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
+const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin');
 
 module.exports = function (api) {
   api.loadSource(({ addCollection }) => {
     // Use the Data store API here: https://gridsome.org/docs/data-store-api/
-  })
+  }),
+  api.chainWebpack((config, { isServer }) => {
+    config.plugin('vuetify-loader').use(VuetifyLoaderPlugin);
+  });
 }
