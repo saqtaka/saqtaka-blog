@@ -6,7 +6,7 @@
     <!-- WordPress List posts -->
     <div class="posts">
       <v-container>
-        <!-- <v-row>
+        <v-row>
           <v-col>
             <div class="content">
               <h2>注目記事</h2>
@@ -17,7 +17,7 @@
           <v-col v-for="edge in $page.posts.edges" :key="edge.node.id" cols="6" sm="4" md="3">
             <PostCard3 :post="edge.node"/>
           </v-col>
-        </v-row> -->
+        </v-row>
         <v-row>
           <v-col>
             <div class="content">
@@ -26,9 +26,6 @@
           </v-col>
         </v-row>
         <v-row>
-          <v-col v-for="edge in $page.posts.edges" :key="edge.node.id" cols="6" sm="4" md="3">
-            <PostCard3 :post="edge.node"/>
-          </v-col>
           <v-col v-for="edge in $page.allWordPressPost.edges" :key="edge.node.id" cols="6" sm="4" md="3">
             <PostCard2 :post="edge.node"/>
           </v-col>

@@ -1,5 +1,5 @@
 <template>
-  <v-card class="post-card pa-2" height="180" rounded="xl" :to="post.path">
+  <v-card class="post-card pa-2" height="350" rounded="xl" :to="post.path">
     <v-img v-if="post.cover_image" class="ma-2 rounded" :src="post.cover_image" />
     <v-sheet class="ma-3" :height="100">
       <div class="text-body-2">{{ post.title }}</div>
