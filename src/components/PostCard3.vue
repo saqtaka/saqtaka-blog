@@ -5,21 +5,21 @@
       <v-sheet class="ma-3" :height="100">
         <div class="text-body-2">{{ post.title }}</div>
       </v-sheet>
-      <v-sheet class="ma-3" >
-        <!-- <PostMeta :post="post" /> -->
+      <div class="ma-3" >
+        <PostMeta :post="post" />
         <PostTags :post="post" />
-      </v-sheet>
+      </div>
     </v-card>
   </div>
 </template>
 
 <script>
-// import PostMeta from '~/components/PostMeta'
+import PostMeta from '~/components/PostMeta'
 import PostTags from '~/components/PostTags'
 
 export default {
   components: {
-    // PostMeta,
+    PostMeta,
     PostTags
   },
   props: ['post']
