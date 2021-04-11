@@ -7,7 +7,7 @@
           <div class="text-body-2">{{ post.title }}</div>
         </v-sheet>
         <div class="ma-3" >
-          <PostMeta :post="post" />
+          <!-- <PostMeta :post="post" /> -->
           <PostTags :post="post" />
         </div>
       </div>
@@ -16,12 +16,12 @@
 </template>
 
 <script>
-import PostMeta from '~/components/PostMeta'
+// import PostMeta from '~/components/PostMeta'
 import PostTags from '~/components/PostTags'
 
 export default {
   components: {
-    PostMeta,
+    // PostMeta,
     PostTags
   },
   props: ['post']
