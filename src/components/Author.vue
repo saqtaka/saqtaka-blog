@@ -6,6 +6,8 @@
 			{{ $static.metadata.siteName }}
 		</h1>
 
+		<p>saqtaka</p>
+
 		<p class="author__intro">
 			<a href="https://remenu.app">Remenu</a>というWebアプリを開発しています。
 		</p>

@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout2>
     <div class="post-title">
       <h1 class="post-title__text">
         {{ $page.post.title }}
@@ -11,15 +11,15 @@
 
     <v-container>
       <v-row>
-        <v-col
+        <!-- <v-col
           cols="12"
           md="3"
         >
           <AdRemenu />
-        </v-col>
+        </v-col> -->
         <v-col
           cols="12"
-          md="6"
+          md="12"
         >
 
           <div class="post content-box">
@@ -38,16 +38,16 @@
             <!-- Add comment widgets here -->
           </div>
         </v-col>
-        <v-col
+        <!-- <v-col
           cols="12"
           md="3"
         >
           <AdRemenu />
-        </v-col>
+        </v-col> -->
       </v-row>
     </v-container>
     <Author class="post-author" />
-  </Layout>
+  </Layout2>
 </template>
 
 <script>
@@ -55,13 +55,15 @@ import PostMeta from '~/components/PostMeta'
 import PostTags from '~/components/PostTags'
 import Author from '~/components/Author.vue'
 import AdRemenu from '~/components/AdRemenu.vue'
+import Layout2 from '~/layouts/Default2.vue'
 
 export default {
   components: {
     Author,
     PostMeta,
     PostTags,
-    AdRemenu
+    AdRemenu,
+    Layout2
   },
   metaInfo () {
     return {

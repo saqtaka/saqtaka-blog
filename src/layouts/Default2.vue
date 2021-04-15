@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-navigation-drawer app>
-      <!-- -->
+      <Author class="ma-4" />
     </v-navigation-drawer>
 
     <v-app-bar
@@ -11,13 +11,13 @@
     >
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Title</v-toolbar-title>
+      <v-toolbar-title>saqtaka blog</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
-      <v-btn icon>
+      <!-- <v-btn icon>
         <v-icon>mdi-magnify</v-icon>
-      </v-btn>
+      </v-btn> -->
     </v-app-bar>
 
       <v-main><!-- アプリケーションに適切なgutterを提供します -->
@@ -36,6 +36,11 @@
 </template>
 
 <script>
+import Author from '~/components/Author.vue'
+
 export default {
+  components: {
+    Author
+  },
 }
 </script>
