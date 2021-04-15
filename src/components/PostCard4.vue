@@ -9,7 +9,7 @@
 
         <div class="ma-2 pb-3" >
           <div class="text-body-2">{{ post.title }}</div>
-          <!-- <PostMeta :post="post" /> -->
+          <PostMeta :post="post" />
           <PostTags :post="post" />
         </div>
       </div>
@@ -20,10 +20,11 @@
 <script>
 // import PostMeta from '~/components/PostMeta'
 import PostTags from '~/components/PostTags'
+import PostMeta from '~/components/PostMeta'
 
 export default {
   components: {
-    // PostMeta,
+    PostMeta,
     PostTags
   },
   props: ['post']

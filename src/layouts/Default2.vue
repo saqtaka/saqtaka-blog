@@ -2,22 +2,24 @@
   <v-app>
     <v-navigation-drawer v-model="drawer" app>
 
-      <v-list dense>
-        <v-list-item
-          v-for="item in items"
-          :key="item.title"
-          link
-          :to="item.to"
-        >
-          <v-list-item-icon>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-icon>
+      <div class="mt-1">
+        <v-list dense>
+          <v-list-item
+            v-for="item in items"
+            :key="item.title"
+            link
+            :to="item.to"
+          >
+            <v-list-item-icon>
+              <v-icon>{{ item.icon }}</v-icon>
+            </v-list-item-icon>
 
-          <v-list-item-content>
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-      </v-list>
+            <v-list-item-content>
+              <v-list-item-title>{{ item.title }}</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+        </v-list>
+      </div>
       <v-divider class="mt-16"/>
       <Author class="ma-4" />
     </v-navigation-drawer>
