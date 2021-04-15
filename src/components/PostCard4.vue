@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-card elevation="0" :to="post.path">
+    <v-card elevation="0" :to="post.path" class="pa-1">
       <div class="post-card">
         <v-img v-if="post.cover_image" class="post-card__image" :src="post.cover_image" />
         <!-- <v-sheet class="ma-3" :height="100"> -->
