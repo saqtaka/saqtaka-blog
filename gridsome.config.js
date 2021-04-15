@@ -5,8 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: '＠saqtakaのブログ',
-  siteDescription: '＠saqtakaのブログ',
+  siteName: 'saqtakaのブログ',
+  siteDescription: 'saqtakaのブログ',
   siteUrl: 'https://saqtaka.com',
 
   templates: {
