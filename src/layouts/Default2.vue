@@ -1,7 +1,25 @@
 <template>
   <v-app>
-    <v-navigation-drawer app>
+    <v-navigation-drawer v-model="drawer" app>
       <Author class="ma-4" />
+      <v-divider />
+      <v-list dense>
+        <v-list-item
+          v-for="item in items"
+          :key="item.title"
+          link
+          :to="item.to"
+        >
+          <v-list-item-icon>
+            <v-icon>{{ item.icon }}</v-icon>
+          </v-list-item-icon>
+
+          <v-list-item-content>
+            <v-list-item-title>{{ item.title }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
+
     </v-navigation-drawer>
 
     <v-app-bar
@@ -9,9 +27,9 @@
       color="white"
       elevate-on-scroll
     >
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>saqtaka blog</v-toolbar-title>
+      <v-toolbar-title scr="/">saqtaka blog</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
@@ -42,5 +60,13 @@ export default {
   components: {
     Author
   },
+  data () {
+    return {
+      drawer: null,
+      items: [
+        { title: 'Home', icon: 'mdi-view-dashboard', to: '/' }
+      ],
+    }
+  }
 }
 </script>

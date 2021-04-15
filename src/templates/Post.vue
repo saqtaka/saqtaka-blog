@@ -46,7 +46,7 @@
         </v-col> -->
       </v-row>
     </v-container>
-    <Author class="post-author" />
+    <!-- <Author class="post-author" /> -->
   </Layout2>
 </template>
 
