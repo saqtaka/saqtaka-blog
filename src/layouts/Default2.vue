@@ -1,8 +1,7 @@
 <template>
   <v-app>
     <v-navigation-drawer v-model="drawer" app>
-      <Author class="ma-4" />
-      <v-divider />
+
       <v-list dense>
         <v-list-item
           v-for="item in items"
@@ -19,7 +18,8 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
-
+      <v-divider class="mt-16"/>
+      <Author class="ma-4" />
     </v-navigation-drawer>
 
     <v-app-bar
