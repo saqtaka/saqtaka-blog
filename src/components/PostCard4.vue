@@ -9,8 +9,10 @@
 
         <div class="ma-2 pb-3" >
           <div class="text-body-2">{{ post.title }}</div>
-          <PostMeta :post="post" />
-          <PostTags :post="post" />
+          <div class="d-flex flex-row align-end">
+            <PostMeta class="" :post="post" />
+            <PostTags :post="post" />
+          </div>
         </div>
       </div>
     </v-card>
