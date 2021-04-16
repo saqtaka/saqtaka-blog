@@ -10,7 +10,7 @@
         <div class="ma-2 pb-3" >
           <div class="text-body-2">{{ post.title }}</div>
           <div class="d-flex flex-row align-end">
-            <PostMeta class="" :post="post" />
+            <PostMeta class="mr-2" :post="post" />
             <PostTags :post="post" />
           </div>
         </div>
