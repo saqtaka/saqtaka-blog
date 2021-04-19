@@ -6,7 +6,7 @@ slag: 'developed_remenu'
 category: 'Nuxt'
 tags: ['Nuxt']
 series: false
-cover_image: ./images/chris-unger-KL5lzjszXp8-unsplash.jpg
+cover_image: ./images/diego-ph-fIq0tET6llw-unsplash.jpg
 canonical_url: false
 description: "習慣とタスクを同時に管理できるremenuというWebアプリを作ったので紹介です。このアプリの特徴は大きく2つあります。* 習慣とTODOを同時に管理 * if thenプランで習慣を管理"
 ---

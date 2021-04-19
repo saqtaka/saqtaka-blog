@@ -1,8 +1,8 @@
 <template>
   <div>
     <v-card elevation="0" :to="post.path" class="pa-1">
-      <div class="post-card">
-        <v-img v-if="post.cover_image" class="post-card__image" :src="post.cover_image" />
+      <div class="post-card4">
+        <v-img v-if="post.cover_image" class="post-card4__image" :src="post.cover_image" />
         <!-- <v-sheet class="ma-3" :height="100"> -->
 
         <!-- </v-sheet> -->
@@ -34,7 +34,7 @@ export default {
 </script>
 
 <style lang="scss">
-.post-card {
+.post-card4 {
   // margin-bottom: var(--space);
   // position: relative;
 
@@ -55,10 +55,10 @@ export default {
     // min-width: 100%;
     border-radius: 15px;
 
-    // &:hover {
-    //   transform: translateY(-5px);
-    //   box-shadow: 1px 10px 30px 0 rgba(0,0,0,.1);
-    // } 
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 1px 10px 30px 0 rgba(0,0,0,.1);
+    } 
   }
 
   // &__title {
