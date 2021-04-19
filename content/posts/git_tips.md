@@ -1,6 +1,6 @@
 ---
 title: "Gitの細かいテクニック"
-date: 2021-04-19
+date: 2021-03-15
 published: true
 slag: 'tips'
 category: 'git'
