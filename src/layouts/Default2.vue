@@ -31,7 +31,7 @@
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-toolbar-title scr="/">saqtaka blog</v-toolbar-title>
+      <v-toolbar-title @click="$router.push('/')">saqtaka blog</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
