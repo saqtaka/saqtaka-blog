@@ -1,6 +1,6 @@
 ---
 title: ".gitignoreを使ってgitに含めないファイルを設定する"
-date: 2021-04-19
+date: 2021-03-01
 published: true
 slag: 'gitignore'
 category: 'git'
