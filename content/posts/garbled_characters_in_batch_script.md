@@ -13,7 +13,7 @@ description: "こんにちは、サクたか(saqtaka)です。ある日、batフ
 # Windowsのコマンドプロンプトでbatファイルを実行したら文字化けする
 
 ## ファイル名に日本語が含まれているとパスが通らない
-こんにちは、サクたか([\@saqtaka](https://twitter.com/saqtaka))です。
+こんにちは、サクたか([@saqtaka](https://twitter.com/saqtaka))です。
 
 ある日、batファイルを実行すると、ファイル名に日本語が含まれているパスの部分でうまく動きませんでした。
 
