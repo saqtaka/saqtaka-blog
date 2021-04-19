@@ -1,12 +1,12 @@
 ---
 title: "Gitの細かいテクニック"
 date: 2021-04-19
-published: false
+published: true
 slag: 'git_tips'
-category: 'psychology'
+category: 'git'
 tags: ['Git', 'tips']
 series: false
-cover_image: ./images/fabio-comparelli-uq2E2V4LhCY-unsplash.jpg
+cover_image: ./images/sixteen-miles-out-lthWC8oevDg-unsplash.jpg
 canonical_url: false
 description: ""
 ---
@@ -37,8 +37,8 @@ http://github.com/github/gitignore
 
 ### 【Step1】gitで大文字と小文字の違いを認識するようにする
 gitで大文字と小文字の違いを認識するようにする。
-```
-```git config core.ignorecase false
+```bash
+git config core.ignorecase false
 ```
 
 ### 【Step2】ファイル整理
@@ -47,7 +47,7 @@ gitで大文字と小文字の違いを認識するようにする。
 
 ### 【Step3】設定をもとに戻す
 
-```
+```bash
 git config core.ignorecase true
 ```
 
@@ -87,7 +87,7 @@ www.DeepL.com/Translator（無料版）で翻訳しました。
 
 ## リポジトリのコミットログを確認する
 
-```
+```bash
 git log
 ```
 
