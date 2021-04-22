@@ -6,7 +6,7 @@ slag: 'gitignore'
 category: 'git'
 tags: ['Git']
 series: false
-cover_image: ./images/sixteen-miles-out-lthWC8oevDg-unsplash_2.jpg
+cover_image: ../images/sixteen-miles-out-lthWC8oevDg-unsplash_2.jpg
 canonical_url: false
 description: ""
 ---

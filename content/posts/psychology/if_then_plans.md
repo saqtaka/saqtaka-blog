@@ -6,7 +6,7 @@ slag: 'if_them_plans'
 category: 'psychology'
 tags: ['習慣', '目標達成']
 series: false
-cover_image: ./images/fabio-comparelli-uq2E2V4LhCY-unsplash.jpg
+cover_image: ../images/fabio-comparelli-uq2E2V4LhCY-unsplash.jpg
 canonical_url: false
 description: "「if then プランニング」はもし「こういう状況になったら」、「こういう行動をとる」というのを自分の中に条件付けすることで、目標達成を促進する方法です。例えば、「お風呂に入る前に」、「腕立て伏せをする」というようにアクションをとる状況を事前に決めておくことで、行動を起こすことができる確率が大幅に上がります。「if then プラン」とも言われたりします。"
 ---
@@ -54,7 +54,7 @@ __効果量とは__心理学などで用いられる、論文で主張してい�
 
 だとされるので、if then プランニングの効果量0.65はきちんと効果がると考えて問題ないと思います。
 
-![Image](./images/morgan-sarkissian-tFaJOKVC2J0-unsplash.jpg)
+![Image](./morgan-sarkissian-tFaJOKVC2J0-unsplash.jpg)
 
 ## if then プランニングと習慣
 if then プランニングはアクションを習慣化することにも効果があります。
