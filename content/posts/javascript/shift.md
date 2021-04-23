@@ -88,5 +88,27 @@ console.log(returnValue);
 
 一番最初に追加した`"apple"`が出力されると思います。
 
+
+## shiftの使い道
+配列をループで回しながらデータを取り出すときに使うことができます。
+
+
+```js
+const fruits = ['apple', 'banana', 'pear', 'melon', 'watermelon'];
+
+while( (i = fruits.shift()) !== undefined ) {
+    console.log(i);
+}
+```
+結果はこのようになると思います。
+
+```js
+> "apple"
+> "banana"
+> "pear"
+> "melon"
+> "watermelon"
+```
+
 ## さいごに
 何もデータが入ってない、空の配列にshiftメソッドを実行しても`undefined`になってしまうので注意してください。
