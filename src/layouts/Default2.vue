@@ -40,9 +40,9 @@
       </v-btn> -->
     </v-app-bar>
 
-      <v-main><!-- アプリケーションに適切なgutterを提供します -->
+      <v-main>
     <!-- <v-sheet id="scrolling-techniques-7" class="overflow-y-auto" max-height="600"> -->
-        <v-container fluid><!-- vue-routerを使用している場合 -->
+        <v-container fluid>
           <!-- <router-view></router-view> -->
           <slot />
         </v-container>
