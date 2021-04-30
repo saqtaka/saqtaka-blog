@@ -59,7 +59,7 @@ export default {
     PostCard4
   },
   created: function () {
-    console.log(this.$page)
+    // console.log(this.$page)
   },
   metaInfo () {
     return {

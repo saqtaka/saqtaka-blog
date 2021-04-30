@@ -15,11 +15,16 @@ pre {
   border-radius: var(--radius);
 }
 
-code {
-  background-color: var(--bg-code);
-  border: 1px solid var(--border-color);
-  font-size: .85em;
-  padding: .2em .5em;
+.content-box {
+	pre[class*="language-"] {
+		code {
+			//   background-color: var(--bg-code);
+			//   border: 1px solid var(--border-color);
+			//   font-size: .85em;
+			  padding: .2em 0em;
+			  background-color: var(--bg-code);
+			}
+	}
 }
 
 code[class*="language-"],
