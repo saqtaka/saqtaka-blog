@@ -7,7 +7,7 @@
 module.exports = {
   siteName: 'saqtakaのブログ',
   siteDescription: 'saqtakaのブログ',
-  siteUrl: 'https://saqtaka.com',
+  siteUrl: 'https://memo.portability.info',
 
   templates: {
     Post: '/post/:category/:slag',
