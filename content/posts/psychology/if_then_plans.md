@@ -82,6 +82,46 @@ __if then プランニングを使用した人の90パーセント以上が運�
 などの中から自分が実行できそうなタイミングを選びます。
 後はタイミングが来たら実行していきます。
 
+## if thenプランニングに向いてないやり方
+そんな習慣化に大きな力を発揮するif thenプランニングですが、「○○をしない」とか「○○をやめる」と言う方向にはあまり効果がないことが分かっています。
+
+なので「○○をしない」というよりは、やめたい習慣を我慢するのではなくて別の習慣に置き換える方が効果的です。
+
+例えば、
+
+「悲しい時にチョコレートを食べる」
+
+という習慣をやめたい時は、
+
+「悲しい時にYoutubeでお笑い動画を見る」
+
+という__新たな習慣に置き換える__方向で考えると、if thenプランニングの力を借りて思い通りの習慣を作っていけると思います。
+
+## if thenプランニングを強化する
+上で紹介した置き換えパターンを使って「○○をしない」パターンだけじゃない、通常の「毎日運動する」のようなパターンをさらに強化することもできます。
+
+例えば、毎日運動するために
+
+「仕事から帰ったら30分ランニングする」
+
+と決めていたとします。
+
+ですが、今日は残業してしまって30分ランニングする時間も気力もない。。。みたいな状況ってよくあると思います。
+
+そういう時でも運動する習慣を切らさないために、
+
+「残業で疲れている時は家で10分ストレッチをする」というような__リカバリー用のif thenプラン__を決めていおくと途切れることなく習慣を続けていけます。
+
+## 習慣化にどれくらいの時間が必要?
+習慣化したい行動をどれくらいの期間続ければ、習慣化できるのかという研究があります。
+
+研究者は様々な行動を同じ状況で実行していって何日間で習慣化できるのかというのを調べました。
+
+その結果は__18日から254日__と非常にばらつきのある結果だったそうです。
+
+これは習慣化しようとしている行動の難易度や個人差などによって習慣化できる期間が違うということだど思います。
+
+
 ## うまくいかない時
 やってみてうまくいかない時もあると思います。
 
@@ -93,6 +133,7 @@ __「アクション」のサイズを一度小さくしてみて下さい。__
 * 5分だけ参考書を読んでみる
 
 みたいに無理のない範囲で始める方が習慣化できると思います。
+
 
 ## 私はどのように活用しているか
 
@@ -120,6 +161,13 @@ if then プランニングを使って習慣を管理できるアプリです。
 [Remenu](https://remenu.app/ja)
 
 ## 参考
+### if thenプランニングの効果についての論文
 [Implementation Intentions and Goal Achievement: A Meta-Analysis of Effects and Processes](https://www.researchgate.net/publication/37367696_Implementation_Intentions_and_Goal_Achievement_A_Meta-Analysis_of_Effects_and_Processes)
 
 [Combining motivational and volitional interventions to promote exercise participation: protection motivation theory and implementation intentions](https://pubmed.ncbi.nlm.nih.gov/14596707/)
+
+### if thenプランニングが効かないパターンの論文
+[Planning What Not to Eat: Ironic Effects of Implementation Intentions Negating Unhealthy Habits](https://www.researchgate.net/publication/49701984_Planning_What_Not_to_Eat_Ironic_Effects_of_Implementation_Intentions_Negating_Unhealthy_Habits)
+
+### 習慣化にかかる期間の論文
+[How are habits formed: Modelling habit formation in the real world](https://onlinelibrary.wiley.com/doi/abs/10.1002/ejsp.674?deniedAccessCustomisedMessage=&userIsAuthenticated=false)
