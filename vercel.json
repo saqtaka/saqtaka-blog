@@ -1,5 +1,6 @@
 {
   "redirects": [
+    { "source": "/p=21/", "destination": "https://saqtaka.com/docker/guide/outside-container" },
     { "source": "/p=124/", "destination": "https://saqtaka.com/docker/guide/delete" },
     { "source": "/p=761/", "destination": "https://saqtaka.com/docker/trouble/not-start" },
     { "source": "/p=662/", "destination": "/post/windows/garbled-characters-in-batch-script/" },
