@@ -1,5 +1,6 @@
 {
   "redirects": [
+    { "source": "/p=761/", "destination": "https://saqtaka.com/docker/trouble/not-start" },
     { "source": "/p=662/", "destination": "/post/windows/garbled-characters-in-batch-script/" },
     { "source": "/p=852", "destination": "/post/docker/dockerfile-with-add-and-copy/" },
     { "source": "/p=852/", "destination": "/post/docker/dockerfile-with-add-and-copy/" }
