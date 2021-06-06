@@ -1,5 +1,6 @@
 {
   "redirects": [
+    { "source": "/p=242/", "destination": "https://saqtaka.com/docker/trouble/exited-137" },
     { "source": "/p=21/", "destination": "https://saqtaka.com/docker/guide/outside-container" },
     { "source": "/p=124/", "destination": "https://saqtaka.com/docker/guide/delete" },
     { "source": "/p=761/", "destination": "https://saqtaka.com/docker/trouble/not-start" },
