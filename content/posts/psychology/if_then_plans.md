@@ -14,6 +14,9 @@ description: "「if then プランニング」はもし「こういう状況に�
 勉強、運動、etc...
 
 毎日やった方がいいとわかっていても中々習慣にならないことってあると思います。
+
+人の行動の40パーセント以上は習慣化されているという研究もあるくらいです。
+
 「習慣化」ために大きく効果がある「if then プランニング」というテクニックについて紹介します。
 
 この方法は科学的に効果が実証されているので__誰がやっても効果がある__と認められた方法です。
@@ -140,6 +143,21 @@ __「アクション」のサイズを一度小さくしてみて下さい。__
 
 みたいに無理のない範囲で始める方が習慣化できると思います。
 
+## if then プランニング関連の本
+もっとif then プランニングについて詳しく知りたい人のためにif then プランニングが出てくる本を紹介します。
+
+[やり抜く人の９つの習慣　コロンビア大学の成功の科学](https://www.amazon.co.jp/dp/B0732RRCWX/ref=cm_sw_r_cp_awdb_D8H1PZ7SST2HXP6E6B13)
+
+目標達成に効果的なテクニックや考え方を、大きく9つ紹介してくれている本です。if thenプランニング以外のことも紹介されています。
+
+[やってのける](https://www.amazon.co.jp/dp/B06X1FCFMP/ref=cm_sw_r_cp_awdb_EXTKB7PXT1T9AK655TTJ)
+
+[やり抜く人の９つの習慣　コロンビア大学の成功の科学](https://www.amazon.co.jp/dp/B0732RRCWX/ref=cm_sw_r_cp_awdb_D8H1PZ7SST2HXP6E6B13)と同じハイディ・グラントさんの本です。[やり抜く人の９つの習慣　コロンビア大学の成功の科学](https://www.amazon.co.jp/dp/B0732RRCWX/ref=cm_sw_r_cp_awdb_D8H1PZ7SST2HXP6E6B13)は2017年出版で、[やってのける](https://www.amazon.co.jp/dp/B06X1FCFMP/ref=cm_sw_r_cp_awdb_EXTKB7PXT1T9AK655TTJ)は2013年出版です。
+
+
+[習慣超大全――スタンフォード行動デザイン研究所の自分を変える方法](https://www.amazon.co.jp/dp/B091C915VR/ref=cm_sw_r_cp_awdb_E85ZJZD3PQHGE857YZ7Y)
+
+この本に紹介されている方法はif thenプランニングとして紹介されていません。ですが表紙に「Aをしたら、Bをする」と書かれている通り内容はif thenプランニングに非常に似ています。
 
 ## 私はどのように活用しているか
 
@@ -177,3 +195,5 @@ if then プランニングを使って習慣を管理できるアプリです。
 
 ### 習慣化にかかる期間の論文
 [How are habits formed: Modelling habit formation in the real world](https://onlinelibrary.wiley.com/doi/abs/10.1002/ejsp.674?deniedAccessCustomisedMessage=&userIsAuthenticated=false)
+
+他にもif then プランニング関連の論文を探すには、[Google Scholar](https://scholar.google.com/schhp?hl=en&as_sdt=0,5)で「if-then planning」や、「implementation intention」と検索するとでてきます。
