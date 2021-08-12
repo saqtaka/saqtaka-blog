@@ -1,5 +1,5 @@
 ---
-title: if then プランニングを【習慣化Webアプリ】の作者が解説する
+title: 目標達成率を高める「if thenプランニング」とは!?【本とアプリも紹介】
 date: 2021-02-14
 published: true
 slag: 'if_them_plans'
@@ -146,12 +146,15 @@ __「アクション」のサイズを一度小さくしてみて下さい。__
 ## if then プランニング関連の本
 もっとif then プランニングについて詳しく知りたい人のためにif then プランニングが出てくる本を紹介します。
 
+### やり抜く人の９つの習慣　コロンビア大学の成功の科学
 [やり抜く人の９つの習慣　コロンビア大学の成功の科学](https://www.amazon.co.jp/dp/B0732RRCWX/ref=cm_sw_r_cp_awdb_D8H1PZ7SST2HXP6E6B13)
 
 目標達成に効果的なテクニックや考え方を、大きく9つ紹介してくれている本です。if thenプランニング以外のことも紹介されています。
 
+### やってのける
 [やってのける](https://www.amazon.co.jp/dp/B06X1FCFMP/ref=cm_sw_r_cp_awdb_EXTKB7PXT1T9AK655TTJ)
 
+### やり抜く人の９つの習慣　コロンビア大学の成功の科学
 [やり抜く人の９つの習慣　コロンビア大学の成功の科学](https://www.amazon.co.jp/dp/B0732RRCWX/ref=cm_sw_r_cp_awdb_D8H1PZ7SST2HXP6E6B13)と同じハイディ・グラントさんの本です。[やり抜く人の９つの習慣　コロンビア大学の成功の科学](https://www.amazon.co.jp/dp/B0732RRCWX/ref=cm_sw_r_cp_awdb_D8H1PZ7SST2HXP6E6B13)は2017年出版で、[やってのける](https://www.amazon.co.jp/dp/B06X1FCFMP/ref=cm_sw_r_cp_awdb_EXTKB7PXT1T9AK655TTJ)は2013年出版です。
 
 
