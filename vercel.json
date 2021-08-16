@@ -8,7 +8,8 @@
     { "source": "/p=662", "destination": "/post/windows/garbled-characters-in-batch-script/" },
     { "source": "/p=852", "destination": "/post/docker/dockerfile-with-add-and-copy/" },
     { "source": "/p=852/", "destination": "/post/docker/dockerfile-with-add-and-copy/" },
-    { "source": "/post/windows/garbled-characters-in-batch-script/", "destination": "https://litely.net/post/tech/bat/trouble/garbled_characters/" }
+    { "source": "/post/windows/garbled-characters-in-batch-script/", "destination": "https://litely.net/post/tech/bat/trouble/garbled_characters/" },
+    { "source": "/post/psychology/if-them-plans/", "destination": "https://litely.net/post/psychology/if_them_plans/" }
   ],
   "trailingSlash": true
 }
