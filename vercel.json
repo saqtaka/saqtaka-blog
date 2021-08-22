@@ -10,7 +10,11 @@
     { "source": "/p=852/", "destination": "/post/docker/dockerfile-with-add-and-copy/" },
     { "source": "/post/windows/garbled-characters-in-batch-script/", "destination": "https://litely.net/post/tech/bat/trouble/garbled_characters/" },
     { "source": "/post/psychology/if-them-plans/", "destination": "https://litely.net/post/psychology/if_them_plans/" },
-    { "source": "/post/docker/dockerfile-with-add-and-copy/", "destination": "https://litely.net/post/tech/docker/reference/dockerfile_copy/" }
+    { "source": "/post/docker/dockerfile-with-add-and-copy/", "destination": "https://litely.net/post/tech/docker/reference/dockerfile_copy/" },
+    { "source": "/post/javascript/pop/", "destination": "https://litely.net/post/tech/javascript/reference/pop/" },
+    { "source": "/post/javascript/push/", "destination": "https://litely.net/post/tech/javascript/reference/push/" },
+    { "source": "/post/javascript/shift/", "destination": "https://litely.net/post/tech/javascript/reference/shift/" },
+    { "source": "/post/javascript/unshift/", "destination": "https://litely.net/post/tech/javascript/reference/unshift/" }
   ],
   "trailingSlash": true
 }
