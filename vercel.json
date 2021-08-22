@@ -15,7 +15,8 @@
     { "source": "/post/javascript/push/", "destination": "https://litely.net/post/tech/javascript/reference/push/" },
     { "source": "/post/javascript/shift/", "destination": "https://litely.net/post/tech/javascript/reference/shift/" },
     { "source": "/post/javascript/unshift/", "destination": "https://litely.net/post/tech/javascript/reference/unshift/" },
-    { "source": "/post/db/crud/", "destination": "https://litely.net/post/tech/database/guide/crud/" }
+    { "source": "/post/db/crud/", "destination": "https://litely.net/post/tech/database/guide/crud/" },
+    { "source": "/post/git/gitignore/", "destination": "https://litely.net/post/tech/git/guide/gitignore/" }
   ],
   "trailingSlash": true
 }
