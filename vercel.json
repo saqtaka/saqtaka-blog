@@ -17,7 +17,8 @@
     { "source": "/post/javascript/unshift/", "destination": "https://litely.net/post/tech/javascript/reference/unshift/" },
     { "source": "/post/db/crud/", "destination": "https://litely.net/post/tech/database/guide/crud/" },
     { "source": "/post/git/gitignore/", "destination": "https://litely.net/post/tech/git/guide/gitignore/" },
-    { "source": "/p=885/", "destination": "https://litely.net/post/tech/wordpress/guide/wp-cli/" }
+    { "source": "/p=885/", "destination": "https://litely.net/post/tech/wordpress/guide/wp-cli/" },
+    { "source": "/p=128/", "destination": "https://litely.net/post/tech/yamaha/trouble/password/" }
   ],
   "trailingSlash": true
 }
